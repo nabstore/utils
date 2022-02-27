@@ -6,3 +6,4 @@ export { default as Events } from "./events";
 export { default as tipoUsuario } from "./constants/tipoUsuario";
 export { default as defaultImages } from "./constants/defaultImages";
 export { default as currencyFormatter } from "./formatters/currency";
+export { default as routes } from "./routes";
