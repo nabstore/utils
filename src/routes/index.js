@@ -14,7 +14,7 @@ const routes = {
 
     /* mfe-products */
     ABOUT: productsRoutes.ABOUT,
-    HOME: productsRoutes.HOME,
+    HOME: productsRoutes.PRODUTOS,
     PRODUTO: productsRoutes.PRODUTO,
 
     /* mfe-checkout */

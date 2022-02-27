@@ -1,6 +1,6 @@
 const productsRoutes = {
   ABOUT: "/products/about",
-  HOME: "/products",
+  PRODUTOS: "/products",
   PRODUTO: "/products/:id",
 };
 
