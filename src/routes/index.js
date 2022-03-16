@@ -1,5 +1,4 @@
 import checkoutRoutes from "./checkout";
-import monolitoRoutes from "./monolito";
 import productsRoutes from "./products";
 import usersRoutes from "./users";
 
@@ -18,11 +17,11 @@ const routes = {
     PRODUTO: productsRoutes.PRODUTO,
 
     /* mfe-checkout */
-    CART: monolitoRoutes.CART,
-    CHECKOUT: monolitoRoutes.CHECKOUT,
-    CARDS: monolitoRoutes.CARDS,
-    COMPRAS: monolitoRoutes.COMPRAS,
-    COMPRA: monolitoRoutes.COMPRA,
+    CART: checkoutRoutes.CART,
+    CHECKOUT: checkoutRoutes.CHECKOUT,
+    CARDS: checkoutRoutes.CARDS,
+    COMPRAS: checkoutRoutes.COMPRAS,
+    COMPRA: checkoutRoutes.COMPRA,
 }
 
 export default routes;
